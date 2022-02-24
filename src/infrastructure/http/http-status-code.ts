@@ -1,0 +1,10 @@
+export enum HttpStatusCode {
+  BAD_REQUEST = 400,
+  FOUND = 302,
+  INTERNAL_SERVER_ERROR = 500,
+  NOT_FOUND = 404,
+  NO_CONTENT = 204,
+  REDIRECT = 301,
+  SUCCESS = 200,
+  UNAUTHORIZED = 401,
+}
